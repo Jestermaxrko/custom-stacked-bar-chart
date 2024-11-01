@@ -1,0 +1,33 @@
+{
+  "name": "stacked-bar-chart",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "react": "19.0.0-rc-6f23540c7d-20240528",
+    "react-dom": "19.0.0-rc-6f23540c7d-20240528",
+    "react-is": "19.0.0-rc-6f23540c7d-20240528",
+    "recharts": "2.13.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.0",
+    "@types/react-dom": "18.0.0",
+    "typescript": "4.1.3"
+  },
+  "overrides": {
+    "react-is": "19.0.0-rc-6f23540c7d-20240528"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
